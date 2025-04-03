@@ -1,0 +1,26 @@
+# Crystal
+/docs/
+/lib/
+/bin/
+/.shards/
+*.dwarf
+/shard.lock
+
+# MNIST model
+/spec/fixtures/
+
+# Environment
+.env
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE
+/.idea/
+/.vscode/
+
+# Build artifacts
+/mnist
+
+onnxruntime-*
