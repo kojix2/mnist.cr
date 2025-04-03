@@ -1,0 +1,9 @@
+This file is a placeholder for the screenshot referenced in README.md.
+Please replace this file with an actual screenshot.
+
+How to take a screenshot:
+1. Run the application: `crystal src/mnist.cr`
+2. Access http://localhost:3000 in your browser
+3. Draw a digit and click the "Predict" button
+4. Take a screenshot of your browser
+5. Save the screenshot as `screenshot.png`

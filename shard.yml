@@ -1,0 +1,22 @@
+name: mnist
+version: 0.1.0
+
+authors:
+  - kojix2 <2xijok@gmail.com>
+
+description: |
+  MNIST Digit Recognition Web Application using Crystal, ONNXRuntime, and Kemal
+
+targets:
+  mnist:
+    main: src/mnist.cr
+
+dependencies:
+  onnxruntime:
+    github: kojix2/onnxruntime.cr
+  kemal:
+    github: kemalcr/kemal
+
+crystal: '>= 1.15.1'
+
+license: MIT
